@@ -46,6 +46,11 @@ public class programa {
 				System.out.println(i+": "+vetor[i].nome+", "+vetor[i].email);
 			}
 		
+		for (int i=0; i<vetor.length;i++) {
+			
+			System.out.println("Quarto: "+i+" Status: "+vetor[i]);
+		}
+		
 		
 		sc.close();
 
